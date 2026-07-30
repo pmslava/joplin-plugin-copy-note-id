@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6 5 13 17" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <!-- hides the part of the back card that sits under the front card -->
+    <mask id="occlude">
+      <rect width="24" height="24" fill="#fff"/>
+      <rect x="8" y="7" width="11" height="15" rx="3" fill="#000"/>
+    </mask>
+  </defs>
+  <!-- back card: peeks behind, top-left (tight offset) -->
+  <rect x="7" y="6" width="9" height="13" rx="2" stroke-width="1.0" mask="url(#occlude)"/>
+  <!-- front card: on top -->
+  <rect x="9" y="8" width="9" height="13" rx="2" stroke-width="1.0"/>
+  <!-- # inside the front card -->
+  <g stroke-width="1.1">
+    <line x1="12" y1="11.3" x2="12" y2="17.7"/>
+    <line x1="15" y1="11.3" x2="15" y2="17.7"/>
+    <line x1="11" y1="12.9" x2="16" y2="12.9"/>
+    <line x1="11" y1="16.1" x2="16" y2="16.1"/>
+  </g>
+</svg>
