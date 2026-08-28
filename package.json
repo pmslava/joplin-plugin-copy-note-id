@@ -1,6 +1,6 @@
 {
   "name": "joplin-plugin-copy-note-id",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "One-click toolbar button to copy the current Joplin note's ID to the clipboard.",
   "author": "pmslava",
   "scripts": {
