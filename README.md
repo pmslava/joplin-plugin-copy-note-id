@@ -67,6 +67,10 @@ npm run dist
 
 The packaged plugin is written to `publish/io.github.copynoteid.jpl`.
 
+## Support
+
+If this plugin is useful to you, support the work: [GitHub Sponsors](https://github.com/sponsors/pmslava) for monthly or one-time sponsorship, or [Ko-fi](https://ko-fi.com/pmslava) for a one-off tip by PayPal or card without an account. All options: [pmslava.com/support](https://pmslava.com/support/).
+
 ## License
 
 [MIT](LICENSE)
